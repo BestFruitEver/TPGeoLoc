@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/email_edittext_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="436dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password_edittext_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_edittext_connection" />
+
+    <TextView
+        android:id="@+id/account_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pas de compte ? Inscrivez vous"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/BtnConnexion"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="@+id/BtnConnexion"
+        app:layout_constraintTop_toBottomOf="@+id/BtnBiom"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <Button
+        android:id="@+id/BtnConnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Se connecter"
+        app:backgroundTint="#009688"
+        app:layout_constraintEnd_toEndOf="@+id/password_edittext_connection"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/password_edittext_connection"
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext_connection" />
+
+    <TextView
+        android:id="@+id/biometric_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Utilisez l'authentification biométrique"
+        app:layout_constraintEnd_toEndOf="@+id/BtnConnexion"
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="@+id/BtnConnexion"
+        app:layout_constraintTop_toBottomOf="@+id/BtnConnexion" />
+
+    <Button
+        android:id="@+id/BtnBiom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:drawableLeft="@drawable/ic_baseline_fingerprint_white"
+        android:text="Authentification"
+        app:backgroundTint="#081A7E"
+        app:layout_constraintEnd_toEndOf="@+id/biometric_textview"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/biometric_textview"
+        app:layout_constraintTop_toBottomOf="@+id/biometric_textview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

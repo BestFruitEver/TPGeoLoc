@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "368347884758",
+    "project_id": "tp-geoloc",
+    "storage_bucket": "tp-geoloc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368347884758:android:dd63acdd25901a35e72d77",
+        "android_client_info": {
+          "package_name": "com.example.tpgeoloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368347884758-99gnaclteht0h2vgcroclg55vpg9g5d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tpgeoloc",
+            "certificate_hash": "ea4815237d64f0152900fb048861eddf704b8f17"
+          }
+        },
+        {
+          "client_id": "368347884758-ffg4b0msr4l5rerjt4ocmsl6pujel55b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB_Gcz8roP7S445lCBJzKDzIqaedgYEvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368347884758-ffg4b0msr4l5rerjt4ocmsl6pujel55b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
